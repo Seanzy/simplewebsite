@@ -1,0 +1,95 @@
+* {
+/*	border: 1px solid red;
+*/	font-family: arial;
+	background-color: #AEAEAE;
+
+}
+
+.wrapper {
+	background-color: #A5A3A4;
+	height: 600px;
+	margin: 150px;
+	/*border*/: 6px dotted blue;
+	margin-top: -10px;
+}
+
+.HeaderBar {
+	background-color: #E7E5E6;
+	padding: 35px;
+}
+
+.Logo {
+	display: block;
+	text-align: center;
+	background-color: #AEAEAE;
+	width: 250px;
+	font-size: 36px;	
+	padding: 20px;
+}
+
+ .Nav {
+ 	display: block;
+ 	font-size: 18px;
+ 	word-spacing: 2em;
+ 	/*background-color: #A5A3A4;*/
+}
+
+.Nav li { 
+	/*background-color: #A5A3A4;*/
+	display: inline-block;
+	color: white;
+	font-weight: bold;
+ }
+
+ .Content {
+ 	background-color: white;
+ 	float: left;
+ 	height: 500px;
+ 	width: 70%;
+ }
+
+.Content h2, p {
+	background-color: white;
+	padding: 0 25px;
+	/*width: 200px;*/
+}
+
+/*.second-header {
+	text-align: center;
+	display: inline-block;
+	margin: auto;
+	padding: auto;
+}*/
+
+.second-header {
+	background-color: #CECCCD;
+	float: left;
+	height: 500px;
+	width:30%;
+
+}
+
+.second-header li, h3 {
+	background-color: #CECCCD;
+}
+
+.second-header h3 {
+	margin-left: 20px;
+}
+
+.second-header ul {
+	background-color: #CECCCD;
+}
+
+.monkey {
+	width: 35%;
+	margin-left: 150px;
+}
+.Footer {
+	background-color: #514F50;
+	color: white;
+	/*border: 3px dashed green;*/
+	display: block;
+	bottom: -658px;
+	padding-left: 25px;
+}
